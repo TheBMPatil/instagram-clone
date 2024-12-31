@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css"
+    />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Left Container: Instagram Title -->
+      <div id="left-container">
+        <div class="left-upper">
+          <img class="vector-left-ig" src="./vectors/ig.svg" alt="" />
+          <p id="insta-title">Instagram</p>
+        </div>
+        <div class="left-middle">
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/home.svg" alt="" />
+            <p>Home</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/search.svg" alt="" />
+            <p>Search</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/explore.svg" alt="" />
+            <p>Explore</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/reels.svg" alt="" />
+            <p>Reels</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/msg1.svg" alt="" />
+            <p>Messages</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/empty-heart.svg" alt="" />
+            <p>Notifications</p>
+          </div>
+          <div class="left-option">
+            <img
+              class="vector-left"
+              src="./vectors/create-outline-svgrepo-com.svg"
+              alt=""
+            />
+            <p>Create</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/profile.svg" alt="" />
+            <p>Profile</p>
+          </div>
+        </div>
+        <div class="left-bottom">
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/thread.svg" alt="" />
+            <p>Threads</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/settings.svg" alt="" />
+            <p>Settings</p>
+          </div>
+          <div class="left-option">
+            <img class="vector-left" src="./vectors/menu.svg" alt="" />
+            <p>More</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-container">
+        <!-- Stories Section -->
+        <section class="stories">
+          <img class="story-img" alt="Story 1" src="./images/logo.png" />
+          <img class="story-img" alt="Story 2" src="./images/Bhagvat.jpg" />
+          <img class="story-img" alt="Story 3" src="./images/Pravin.jpg" />
+          <img class="story-img" alt="Story 4" src="./images/Ankush.jpg" />
+          <img class="story-img" alt="Story 5" src="./images/Ajay.png" />
+          <img class="story-img" alt="Story 6" src="./images/Amol.jpg" />
+          <img class="story-img" alt="Story 7" src="./images/logo.png" />
+          <img class="story-img" alt="Story 8" src="./images/logo.png" />
+          <img class="story-img" alt="Story 9" src="./images/logo.png" />
+        </section>
+
+        <!-- Posts Section -->
+        <div id="posts-container">
+          <div class="post-data">
+            <div class="post-header">
+              <div class="user-data">
+                <img id="user-dp" src="./images/logo.png" alt="" />
+                <div class="user-info-header">
+                  <p class="user-name">Bhagvat Mutthe</p>
+                  <p class="user-location">location: Pune</p>
+                </div>
+              </div>
+              <div class="interaction-btns">
+                <img id="dot-menu" src="./vectors/dot-menu.svg" alt="" />
+              </div>
+            </div>
+
+            <img class="post-image" src="./images/user3.jpg" alt="User 3" />
+            <div class="data">
+              <!-- Interaction Buttons -->
+              <div class="interaction-btns">
+                <div>
+                  <img
+                    src="./vectors/empty-heart.svg"
+                    alt="Like"
+                    class="vector-btn"
+                    onclick="this.src = this.src.includes('empty-heart.svg') ? './vectors/filled-heart.svg' : './vectors/empty-heart.svg';"
+                  />
+                  <img
+                    src="./vectors/comment.svg"
+                    alt="Comment"
+                    class="vector-btn"
+                  />
+                </div>
+                <div>
+                  <img class="vector-btn" src="./vectors/save.svg" alt="" />
+                </div>
+              </div>
+              <!-- Post Caption -->
+              <p class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                officiis odit dolor. Quod nam vero fugiat laborum aliquid
+                perferendis modi?
+              </p>
+            </div>
+          </div>
+          <!-- Post 2 -->
+          <div class="post-data">
+            <div class="post-header">
+              <div class="user-data">
+                <img id="user-dp" src="./images/Bhagvat.jpg" alt="" />
+                <div class="user-info-header">
+                  <p class="user-name">Bhagvat Mutthe</p>
+                  <p class="user-location">location: Pune</p>
+                </div>
+              </div>
+              <div class="interaction-btns">
+                <img id="dot-menu" src="./vectors/dot-menu.svg" alt="" />
+              </div>
+            </div>
+
+            <img class="post-image" src="./images/user2.png" alt="User 3" />
+            <div class="data">
+              <!-- Interaction Buttons -->
+              <div class="interaction-btns">
+                <div>
+                  <img
+                    src="./vectors/empty-heart.svg"
+                    alt="Like"
+                    class="vector-btn"
+                    onclick="this.src = this.src.includes('empty-heart.svg') ? './vectors/filled-heart.svg' : './vectors/empty-heart.svg';"
+                  />
+                  <img
+                    src="./vectors/comment.svg"
+                    alt="Comment"
+                    class="vector-btn"
+                  />
+                </div>
+                <div>
+                  <img class="vector-btn" src="./vectors/save.svg" alt="" />
+                </div>
+              </div>
+              <!-- Post Caption -->
+              <p class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                officiis odit dolor. Quod nam vero fugiat laborum aliquid
+                perferendis modi?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- //Left Side -->
+      <div class="right-container">
+        <div class="">
+<!-- TODO: BAKI ahe  -->
+            <div class="post-header">
+                <div class="user-data">
+                  <img id="user-dp" src="./images/logo.png" alt="" />
+                  <div class="user-info-header">
+                    <p class="user-location">bhagvat_mutthe_</p>
+                    <p class="user-name">Bhagvat Mutthe</p>
+                    
+                  </div>
+                  <div class="switch"><a href="">switch</a></div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
