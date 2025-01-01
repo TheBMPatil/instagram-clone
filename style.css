@@ -32,29 +32,26 @@ body {
   overflow: hidden;
 }
 
-
-
 /* Left Side */
 @font-face {
-    font-family: 'Instagram'; /* You can choose any name */
-    src: url('./fonts/InstagramSansScript-Bold.ttf') format('truetype'); /* Path to the TTF file */
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+  font-family: "Instagram"; /* You can choose any name */
+  src: url("./fonts/InstagramSansScript-Bold.ttf") format("truetype"); /* Path to the TTF file */
+  font-weight: normal;
+  font-style: normal;
+}
 
 #insta-title {
-    font-family:Instagram;
-    color: white;
-    display: flex;
-    /* justify-content: center; */
-    margin-left: 1rem;
-    font-size: 1.5rem;
-  }
-  #insta-title:hover {
-    transform: scale(1.01);
-    transition: all 0.3s ease;
-  }
+  font-family: Instagram;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+#insta-title:hover {
+  transform: scale(1.01);
+  transition: all 0.3s ease;
+}
 #left-container {
   background-color: rgba(0, 0, 0, 0.87);
   height: 100vh;
@@ -88,8 +85,6 @@ body {
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
-
-
 
 .left-upper {
   display: flex;
@@ -159,11 +154,16 @@ body {
   height: auto;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   text-align: center;
   padding: 5px;
+}
+.posts-block {
+  width: 100%;
+
+  justify-content: space-between;
 }
 .post-image {
   /* width: auto; */
@@ -200,7 +200,10 @@ body {
 }
 
 .caption {
+  padding: 12px;
   margin-top: 5px;
+
+  text-align: justify;
 }
 
 .post-data {
@@ -211,6 +214,7 @@ body {
   flex-direction: column;
   border-bottom: 1px solid rgba(71, 71, 71, 0.863);
   border-radius: 0px;
+  width: 100%;
 }
 
 .post-header {
