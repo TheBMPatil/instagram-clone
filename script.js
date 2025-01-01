@@ -7,6 +7,13 @@ const postsData = [
 //     "user-img": "images/shubham.png",
 //   },
   {
+    "user-name": "Shubham Wagh",
+    location: "Hood madi dude",
+    caption: "Thara bhai Shubham",
+    "image-url": "./posts/fu.png",
+    "user-img": "images/shubham.png",
+  },
+  {
     "user-name": "Bhagvat Mutthe",
     location: "Firodya",
     caption:

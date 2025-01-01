@@ -5,6 +5,12 @@
   color: white;
   border-radius: 12px;
 }
+@font-face {
+  font-family: "Instagram"; /* You can choose any name */
+  src: url("./fonts/InstagramSansScript-Bold.ttf") format("truetype"); /* Path to the TTF file */
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   position: relative;
   /* height: 100vh;
@@ -15,7 +21,7 @@ body {
     rgba(247, 119, 55, 0.4),
     rgba(235, 47, 150, 0.4),
     rgba(156, 31, 150, 0.4),
-    rgba(90, 45, 148, 0.4)
+    rgba(90, 45, 148, 0.)
   );
 }
 
@@ -35,12 +41,7 @@ body {
 }
 
 /* Left Side */
-@font-face {
-  font-family: "Instagram"; /* You can choose any name */
-  src: url("./fonts/InstagramSansScript-Bold.ttf") format("truetype"); /* Path to the TTF file */
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 #insta-title {
   font-family: Instagram;
